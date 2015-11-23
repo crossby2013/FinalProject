@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+ }
+ <div class="jumbotron">
+
+        <h1>Brittany Cross</h1>
+        <p>The Rise of Women in Technology</p>
+        <p class="lead">List of completed projects, brief biography, and contact information</p>
+
+    </div>
+
+ <div class="row">
+     <div class="col-lg-4">
+        
+         <h2>@Html.ActionLink("Projects", "Index", "Projects")</h2>
+         <p style=" color:black"><font size="3">Projects I have completed over the course of the bootcamp</font></p>
+
+     </div>
+     <div class="col-lg-4">
+        
+         <h2>@Html.ActionLink("About", "About", "Home")</h2>
+         <p style=" color:black"><font size="3">Brief biography about my life and future career goals</font></p>
+
+     </div>
+     <div class="col-lg-4">
+         
+         <h2>@Html.ActionLink("Contacts", "Contact", "Home")</h2>
+         <p style=" color:black"><font size="3">Ways to get in contact with me or find out more information</font></p>
+
+     </div>
+
+    </div>
+

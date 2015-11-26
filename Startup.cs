@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(VoterSite.Startup))]
-namespace VoterSite
+[assembly: OwinStartupAttribute(typeof(FinalProject.Startup))]
+namespace FinalProject
 {
     public partial class Startup
     {

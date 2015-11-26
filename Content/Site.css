@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color:#A9CCD6;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -21,86 +22,4 @@ input,
 select,
 textarea {
     max-width: 280px;
-}
-
-/** MY CSS *********************************************************************************************************/
-body {
-    background-color:#eeeeee;
-}
-#site-heading {
-    text-align:center;
-    background-color:#000000;
-    color:white;
-    padding-top:2%;
-    margin-top:0px;
-}
-div.page-header {
-    background-color:#000000;
-    margin-top:0px;
-    margin-bottom:1%;
-}
-body {
-    padding-top:0px;
-    padding-bottom:0px;
-    background-color:#646464;
-}
-
-footer p {
-    background-color:#000000;
-    color:white;
-    margin-bottom:0px;
-    padding-top:1%;
-    padding-bottom:1%;
-    margin-top:1%;
-    width:100%;
-
-    
-  
-}
-.issue-card {
-    background-color:#646464;
-    margin-top:1%;
-  
-    padding:1px;
-    
-    
-    border-style:solid;
-    border-width:2px;
-    border-left-width:6px;
-    border-right-width:6px;
-    border-color:#ffffff;
-
-}
-.issue-card img {
-    width:293px;   
-}
-.issue-card h3 {
-    text-align:center;
-}
-.issue-card p {
-    text-align:center;
-}
-div.container-fluid {
-    /*margin-left:0px;*/
-    margin-right:0px!important;
-    margin:0px;
-    width:100%;
-}
-#icon {
-    width:10%;
-}
-.caption h3 {
-    text-align:center;
-}
-.caption p {
-    text-align:center;
-}
-.masonry {
-    column-count: 3;
-}
-.item {
-    /*background-color: #eee;*/
-    display: inline-block;
-    margin: 0 0 1em;
-    /*width: 100%;*/
 }

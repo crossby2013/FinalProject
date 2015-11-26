@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace VoterSite
+namespace FinalProject
 {
     public class BundleConfig
     {

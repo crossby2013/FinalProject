@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using VoterSite.Models;
+using FinalProject.Models;
 
-namespace VoterSite
+namespace FinalProject
 {
     public partial class Startup
     {

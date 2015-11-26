@@ -10,9 +10,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using VoterSite.Models;
+using FinalProject.Models;
 
-namespace VoterSite
+namespace FinalProject
 {
     public class EmailService : IIdentityMessageService
     {

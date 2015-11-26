@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace VoterSite.Models
+namespace FinalProject.Models
 {
     public class ExternalLoginConfirmationViewModel
     {
